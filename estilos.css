@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Lato,sans-serif;
+    color: #ffffff!important;
+    box-sizing: border-box;
+}
+
+header,section,footer,aside,nav,article{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    border: solid black;
+    background-color: #565656;
+    margin: auto;
+    padding: 40px;
+}
+
+.menu{
+    background-color: rgb(44, 44, 44);
+    color: #ffffff;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 2% 4%;
+    background-color: rgb(165, 165, 165);
+    width: 50%;
+    float: left;
+}
+
+.columna{
+    width: 39%;
+    float: left;
+    margin: 2% 1%;
+    background-color: rgb(165, 165, 165);
+
+}
+
+article{
+    margin-bottom: 15px;
+}
+
+article footer{
+    text-align: right;
+    margin: 20px 20px;
+}
+
+.pie{
+    clear: both;
+}
+
+img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.columna blockquote{
+    padding: 40px;
+}
+
+.parrafo{
+    font-family: bold 14px verdana;
+    text-align: justify;
+    padding: 2%;
+    font: 16px verdana;
+}
+
+.titulos{
+    text-align: center;
+    font: bold 20px verdana;
+}
+
+.subtitulos{
+    text-align: left;
+    margin: 0% 2%;
+    font: bold 20px verdana;
+}
+
+.public1{
+    text-align: left;
+    margin: 0% 2%;
+    font: 10px verdana;
+}
+
+.cita{
+    text-align: center;
+    font: bold 18px verdana;
+    margin: 2% 0%;
+}
+
+.citas{
+    text-align: center;
+    font: 12px verdana;
+    border: 1px solid black;
+}
+
